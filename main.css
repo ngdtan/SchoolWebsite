@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+:root {
+    --co1: #06283D;
+    --co2: #1363DF;
+    --co3: #47B5FF;
+    --co4: #DFF6FF;
+    --bgop: rgba(0, 0, 0, 0.3);
+    --night1: #06113C;
+    --night2: #FF8C32;
+    --night3: #DDDDDD;
+    --night4: #EEEEEE;
+
+    --earth1: #1C0A00;
+    --earth2: #361500;
+    --earth3: #603601;
+    --earth4: #CC9544;
+
+    --space1: #022C43;
+    --space2: #053F5E;
+    --space3: #115173;
+    --space4: #FFD700;
+
+    --main1: rgb(13, 6, 28);
+    --main2: rgb(232, 228, 228);
+    --main3: rgb(212, 212, 46);
+}
+
+
+/* background - vid */
+
+.vid {
+    position: relative;
+    height: 95vh;
+}
+
+.vid video {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Thanh tiêu đề */
+header {
+    height: 30vh;
+    margin-top: 5vh;
+    position: relative;
+}
+
+header .logo {
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+}
+
+
+
+/* Menu */
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+nav>ul.menu {
+    display: flex;
+
+}
+
+ul.menu>li>a {
+    color: var(--co4);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    max-width: 200px;
+}
+
+ul.menu>li>a:hover {
+    background-color: var(--bgop);
+    border-radius: 3rem;
+
+}
+
+.subcontent {
+    display: none;
+}
+
+.sub:hover .subcontent {
+    display: block;
+    position: absolute;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+}
+
+/* Tiêu đề */
+div.first {
+    height: 70vh;
+    color: #fff;
+    background-color: var(--space1);
+
+}
+
+.TEG {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.TEG h1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.TEG h2 {
+    font-size: 2.5rem;
+
+}
+
+.TEG-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.TEG-content p {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.TEG-content h4 {
+    text-align: right;
+}
+
+/* Tại sao... */
+.part1 h1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.part1 {
+    background-color: var(--space3);
+}
+
+
+.banner-slider {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.banitem {
+    width: 50%;
+}
+
+.banitem img {
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.banner-slider button {
+    font-size: 2rem;
+    color: var(--night2);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.slick-prev.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+}
+
+.slick-next.slick-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 2;
+}
+
+
+
+/* Nd */
+.main-item {
+    background-color: #fff;
+    color: var(--space1);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.item {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3 rem;
+}
+
+.img {
+    width: 50%;
+    position: relative;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.parag {
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 8rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.parag h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.img img {
+    width: 100%;
+    z-index: -1;
+    border-radius: 3rem;
+}
+
+.img h1 {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: var(--space1);
+    font-size: 2rem;
+    text-align: center;
+    display: none;
+}
+
+/* Tinh chỉnh lắc nhắc */
+.fee h1 {
+    left: 40%;
+}
+
+.rule h1 {
+    left: 20%;
+}
+
+.form h1 {
+    left: 25%;
+}
+
+.prize h1 {
+    left: 25%;
+}
+
+/* Nd - rê vào */
+.img:hover h1 {
+    display: block;
+}
+
+.img:hover img {
+    opacity: 0.7;
+}
+
+/* Company */
+.part2 {
+    background-color: var(--space2);
+    padding-top: 4rem;
+}
+
+.p2-cont {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    width: 50%;
+    align-items: center;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+}
+
+.company {
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+
+.cpn {
+    width: 25%;
+
+}
+
+.cpn img {
+    width: 100%;
+}
+
+.part2 hr {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/* part 3 student */
+.part3 {
+    background-color: var(--space3);
+    color: white;
+}
+
+.part3>h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.ex-student {
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.pic {
+    width: 100%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.name {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.share {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.ex-student button {
+    font-size: 2rem;
+    color: var(--night1);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.prev {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    margin-left: -3rem;
+    z-index: 2;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    margin-right: -3rem;
+    z-index: 2;
+}
+
+/* footer */
+footer {
+    background-color: var(--space1);
+    color: #fff;
+}
+
+.footer-main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conclusion {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.infor {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.last {
+    width: 100%;
+    padding: 3rem 2rem 7rem 2rem;
+    position: relative;
+}
+
+.address {
+    width: 40%;
+}
+
+.address div {
+    margin-bottom: 2rem;
+}
+
+.address a {
+    font-size: 24px;
+    color: #fff;
+    padding-right: 2rem;
+}
+
+.lastimg {
+    width: 20%;
+
+
+}
+
+.license {
+    width: 40%;
+    text-align: right;
+}
+
+
+.lastimg img {
+    width: 100%;
+}
+
+/* Login */
+.ls {
+    justify-content: space-between;
+}
+
+.ls a {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--bgop);
+    margin-bottom: 3rem;
+    display: block;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.login:hover {
+    opacity: 0.8;
+}
+
+.sign:hover {
+    opacity: 0.8;
+}
+
+.tutol {
+    padding-top: 1rem;
+}
+
+/* Go to top */
+.btn {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    opacity: 0.7;
+}
+
+.btn i {
+    color: var(--night2);
+    font-size: 2rem;
+}

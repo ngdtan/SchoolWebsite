@@ -1,0 +1,144 @@
+@media screen and (max-width:400px) {
+    video {
+        display: none;
+    }
+
+    body {
+        background-color: var(--space1);
+    }
+
+    .vid {
+        background-color: var(--space1);
+        height: 70%;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .subcontent li {
+        background-color: var(--space1);
+    }
+
+    .last {
+        display: block;
+    }
+
+    .last div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .license {
+        text-align: left;
+        padding-top: 1rem;
+    }
+
+    .tutol {
+        display: none;
+    }
+
+    .part3>h1 {
+        font-size: 2rem;
+    }
+
+    .ex-student {
+        width: 70%;
+    }
+
+    .p2-cont {
+        display: block;
+        width: 100%;
+    }
+
+    .p2-cont>div {
+        width: 100%;
+    }
+
+    .p2-cont .company {
+        padding-top: 2rem;
+        justify-items: center;
+    }
+
+    .cpn {
+        width: 50%;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .item {
+        width: 100%;
+        display: block;
+    }
+
+    .item>div {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .img {
+
+        opacity: 0.7;
+    }
+
+    .img h1 {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .item .parag {
+        display: none;
+    }
+
+    .fee h1 {
+        left: 30%;
+    }
+
+    .rule h1 {
+        left: 10%;
+    }
+
+    .prize h1 {
+        left: 10%;
+    }
+
+    .form h1 {
+        left: 17%;
+    }
+
+    .part1 h1 {
+        font-size: 2rem;
+    }
+
+    .banner-slider {
+        width: 80%;
+    }
+
+    .banitem {
+        width: 100%;
+    }
+
+
+
+    .slick-prev.slick-arrow {
+        top: 30%;
+    }
+
+    .slick-next.slick-arrow {
+        top: 30%;
+    }
+
+    .TEG h1 {
+        font-size: 2.5rem;
+    }
+
+    .TEG h2 {
+        font-size: 2rem;
+    }
+
+    .TEG-content {
+        width: 90%;
+    }
+}

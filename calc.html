@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/iconlogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="calc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Hệ thống tính điểm - Trường đại học TEG</title>
+</head>
+
+<body>
+    <div class="vid">
+        <div class="title">
+            <h1>HỆ THỐNG XÉT ĐIỂM</h1>
+        </div>
+        <div class="box">
+            <div class="point flex">
+                <div class="main">
+                    <div>
+                        <h1>3 môn chính</h1>
+                    </div>
+                    <div class="math ">
+                        <div>Toán</div>
+                        <input type="number" max="10" min="0" value="0" id="math">
+                    </div>
+                    <div class="lang ">
+                        <div>Anh</div>
+                        <input type="number" max="10" min="0" value="0" id="lang">
+                    </div>
+                    <div class="lit ">
+                        <div>Văn</div>
+                        <input type="number" max="10" min="0" value="0" id="lit">
+                    </div>
+                </div>
+                <div class="nature">
+                    <div>
+                        <h1>Tổ hợp tự nhiên</h1>
+                    </div>
+                    <div class="che ">
+                        <div>Hóa</div>
+                        <input type="number" max="10" min="0" value="0" id="che">
+                    </div>
+                    <div class="phi ">
+                        <div>Lý</div>
+                        <input type="number" max="10" min="0" value="0" id="phi">
+                    </div>
+                    <div class="bio ">
+                        <div>Sinh</div>
+                        <input type="number" max="10" min="0" value="0" id="bio">
+                    </div>
+                </div>
+                <div class="com">
+                    <div>
+                        <h1>Tổ hợp xã hội</h1>
+                    </div>
+                    <div class="his ">
+                        <div>Sử</div>
+                        <input type="number" max="10" min="0" value="0" id="his">
+                    </div>
+                    <div class=" geo">
+                        <div>Địa</div>
+                        <input type="number" max="10" min="0" value="0" id="geo">
+                    </div>
+                    <div class=" edu">
+                        <div>Giáo dục</div>
+                        <input type="number" max="10" min="0" value="0" id="edu">
+                    </div>
+                </div>
+            </div>
+
+            <div class="submit">
+                <input type="submit" name="" id="" value="Xét" onclick="calcpoint()">
+            </div>
+            <div id="kq1" class="result"></div>
+            <div id="kq2" class="result"></div>
+            <div id="kq3" class="result"></div>
+            <div id="kq4" class="result"></div>
+            <div id="kq5" class="result"></div>
+            <div id="kq6" class="result"></div>
+            <div id="kq7" class="result"></div>
+            <div id="kq8" class="result"></div>
+        </div>
+        <div class="backhome">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <video autoplay muted loop plays-inline id="vidbg">
+            <source src="vid/bgvid.mp4" type="video/mp4">
+        </video>
+
+    </div>
+</body>
+
+</html>

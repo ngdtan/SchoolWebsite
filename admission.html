@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="shortcut icon" href="img/iconlogo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quy chế tuyển sinh - Trường Đại Học TEG</title>
+  <link rel="stylesheet" href="6page.css" />
+  <script src="4page.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <script>
+    $(document).ready(function () {
+      $('.toggle').click(function () {
+        $('nav').slideToggle();
+      });
+    })
+  </script>
+
+  <div class="toggle">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+  <nav>
+    <ul class="menu">
+      <li class="sub"><a href="index.html">TRANG CHỦ</a></li>
+      <li class="sub">
+        <a href="#">GIỚI THIỆU</a>
+        <ul class="menu subcontent">
+          <li><a href="#">Lịch sử thành lập</a></li>
+          <li><a href="#">Triết lí đào tạo</a></li>
+          <li><a href="#">Các giải thưởng và thành tích</a></li>
+          <li><a href="#">Ban lãnh đạo</a></li>
+          <li><a href="#">Gắn kết cộng đồng</a></li>
+        </ul>
+      </li>
+      <li class="sub">
+        <a href="#">KHOA</a>
+        <ul class="menu subcontent">
+          <li><a href="#">Công nghệ</a></li>
+          <li><a href="#">Ngôn ngữ </a></li>
+          <li><a href="#">Kinh tế</a></li>
+          <li><a href="#">Sư phạm</a></li>
+        </ul>
+      </li>
+
+      <li class="sub">
+        <a href="#">HỢP TÁC</a>
+        <ul class="menu subcontent">
+          <li><a href="#">Ngành công nghiệp và Doanh nghiệp</a></li>
+          <li><a href="#">Chương trình trao đổi sinh viên</a></li>
+          <li><a href="#">Chương trình học tập tại nước ngoài</a></li>
+          <li><a href="#">Các trường đại học đối tác</a></li>
+        </ul>
+      </li>
+      <li class="sub">
+        <a href="#">CỰU SINH VIÊN</a>
+        <ul class="menu subcontent">
+          <li><a href="#">Cộng đồng cựu sinh viên</a></li>
+          <li><a href="#">Họ đang làm việc tại đâu</a></li>
+        </ul>
+      </li>
+      <li class="sub">
+        <a href="#">TUYỂN SINH</a>
+        <ul class="menu subcontent">
+          <li><a href="#">Đề án tuyển sinh</a></li>
+          <li><a href="calc.html">Tính điểm</a></li>
+        </ul>
+      </li>
+      <li class="sub"><a href="#">LIÊN HỆ</a></li>
+    </ul>
+  </nav>
+  <div class="bg" style="background-image: url(img/bg.gif);">QUY CHẾ TUYỂN SINH</div>
+  <div>
+    <p class="tittle">
+      <span>
+        <strong>QUY CHẾ TUYỂN SINH HỆ ĐẠI HỌC CHÍNH QUY NĂM 2022</strong>
+      </span>
+    </p>
+    <p class="tittle">
+      <span>
+        <strong>TEG UNIVERSITY</strong>
+      </span>
+    </p>
+    <div class="doc">
+      <p>
+        <strong>I. Chỉ tiêu tuyển sinh và ngành đào tạo</strong>
+      </p>
+      <p>
+        <strong>1. Chỉ tiêu tuyển sinh: 17.149</strong>
+      </p>
+      <p>
+        <strong>2. Ngành học – mã ngành</strong>
+      </p>
+      <p>Mã trường: TEG</p>
+      <table class="mini" cellspacing="0">
+        <tbody>
+          <tr>
+            <td><strong>Khối ngành</strong></td>
+            <td><strong>Ngành</strong></td>
+            <td><strong>Mã ngành</strong></td>
+            <td><strong>Chuyên Ngành</strong></td>
+            <td><strong>Chỉ tiêu</strong></td>
+          </tr>
+          <tr>
+            <td>III</td>
+            <td>Quản trị kinh doanh</td>
+            <td>7340101</td>
+            <td class="more">
+              Digital Marketing; Kinh doanh quốc tế; Quản trị khách sạn; Quản
+              trị dịch vụ du lịch & lữ hành; Quản trị truyền thông đa phương
+              tiện; Tài chính
+            </td>
+            <td>6265</td>
+          </tr>
+          <tr>
+            <td>V</td>
+            <td>Công nghệ thông tin</td>
+            <td>7480201</td>
+            <td class="more">
+              Kỹ thuật phần mềm; Hệ thống thông tin; Trí tuệ nhân tạo; An toàn
+              thông tin; Thiết kế Mỹ thuật số
+            </td>
+            <td>9799</td>
+          </tr>
+          <tr>
+            <td rowspan="3">VII</td>
+            <td>Ngôn ngữ Anh</td>
+            <td>7220201</td>
+            <td>Ngôn ngữ Anh</td>
+            <td rowspan="3">1085</td>
+          </tr>
+          <tr>
+            <td>Ngôn ngữ Nhật</td>
+            <td>7220209</td>
+            <td>Ngôn ngữ Nhật</td>
+          </tr>
+          <tr>
+            <td>Ngôn ngữ Hàn Quốc</td>
+            <td>7220210</td>
+            <td>Ngôn ngữ Hàn Quốc</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <p><strong>II. Đối tượng và Phương thức tuyển sinh</strong></p>
+      <p><strong>1. Đối tượng tuyển sinh</strong></p>
+      <p>
+        Các thí sinh đã được công nhận tốt nghiệp trung học phổ thông (THPT)
+        của Việt Nam hoặc có bằng tốt nghiệp của nước ngoài được công nhận
+        trình độ tương đương tính đến thời điểm nhập học, có nguyện vọng theo
+        học tại Trường Đại học TEG.
+      </p>
+      <p>
+        <strong>2. Phương thức tuyển sinh</strong>
+      </p>
+      <table class="minimore" cellspacing="0">
+        <tbody>
+          <tr>
+            <td><strong>TT</strong></td>
+            <td><strong>Phương thức tuyển sinh</strong></td>
+            <td><strong>Điều kiện trúng tuyển</strong></td>
+            <td><strong>Mã tổ hợp</strong></td>
+            <td><strong>Mã phương thức xét tuyển</strong></td>
+          </tr>
+          <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">Xét kết quả học tập cấp THPT (học bạ)</td>
+            <td>1.1. Đạt xếp hạng Top40 theo học bạ THPT năm 2022 (chứng nhận
+              thực hiện trên trang <a href="#">http://SchoolRank.teg.edu.vn</a>)</td>
+            <td>F03</td>
+            <td rowspan="2">200</td>
+          </tr>
+          <tr>
+            <td>1.2. Ưu tiên cho Thế hệ 1 (*): Đạt xếp hạng Top50 SchoolRank
+              năm 2022 (chứng nhận thực hiện trên trang
+              <a href="#">http://SchoolRank.teg.edu.vn</a>) đối với thí sinh là Thế hệ 1
+            </td>
+            <td>F03</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              Xét tuyển thẳng theo quy định của Quy chế tuyển sinh của Bộ
+              GD&ĐT (Điều 8)
+            </td>
+            <td>
+              Thí sinh thuộc diện được xét tuyển thẳng trong Quy chế tuyển
+              sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT năm
+              2022
+            </td>
+            <td>TT</td>
+            <td>301</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              Sử dụng kết quả thi đánh giá năng lực, đánh giá tư duy do đơn vị
+              khác tổ chức để xét tuyển
+            </td>
+            <td>
+              Đạt 90/150 điểm trở lên trong kỳ thi Đánh giá năng lực Đại học
+              Quốc gia Hà Nội năm 2022 và 670/1200 điểm trở lên trong kỳ thi
+              Đánh giá năng lực Đại học Quốc gia TP HCM năm 2022
+            </td>
+            <td>Q00, NL1</td>
+            <td>402</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Chỉ sử dụng chứng chỉ quốc tế để xét tuyển</td>
+            <td>
+              Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ
+              6.0 hoặc quy đổi tương đương (áp dụng đối với ngành Ngôn Ngữ
+              Anh); có chứng chỉ tiếng Nhật JLPT từ N3 trở lên (áp dụng đối
+              với ngành Ngôn Ngữ Nhật); có chứng chỉ tiếng Hàn TOPIK cấp độ 4
+              trong kỳ thi TOPIK II (áp dụng đối với ngành Ngôn Ngữ Hàn Quốc)
+            </td>
+            <td>CCQT</td>
+            <td>408</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Xét tuyển thí sinh tốt nghiệp THPT nước ngoài</td>
+            <td>Tốt nghiệp THPT ở nước ngoài</td>
+            <td>TNNN</td>
+            <td>411</td>
+          </tr>
+          <tr>
+            <td rowspan="5">6</td>
+            <td rowspan="5">Sử dụng phương thức khác</td>
+            <td>6.1.Đạt xếp hạng Top40 theo điểm thi THPT năm 2022 (chứng nhận
+              thực hiện trên trang <a href="#">http://SchoolRank.teg.edu.vn</a> theo số liệu
+              Đại học TEG tổng hợp và công bố sau kỳ thi THPT 2022)</td>
+            <td>F01, F02</td>
+            <td rowspan="5">500</td>
+          </tr>
+          <tr>
+            <td>6.2. Ưu tiên cho Thế hệ 1 (*): Đạt xếp hạng Top50 SchoolRank
+              năm 2022 (chứng nhận thực hiện trên trang
+              <a href="#">http://SchoolRank.teg.edu.vn</a>) đối với thí sinh là Thế hệ 1
+            </td>
+            <td>F01, F02</td>
+          </tr>
+          <tr>
+            <td>6.3. Tốt nghiệp một trong các chương trình sau: Chương trình
+              APTECH HDSE/ADSE (đối với ngành Công nghệ thông tin); Chương
+              trình ARENA ADIM (đối với chuyên ngành Thiết kế Mỹ thuật số);
+              Chương trình BTEC HND; FUNiX Software Engineering</td>
+            <td>PTK</td>
+          </tr>
+          <tr>
+            <td>6.4. Tốt nghiệp Đại học</td>
+            <td>PTK</td>
+          </tr>
+          <tr>
+            <td>6.5. Sinh viên từ nước ngoài về từ các trường đại học thuộc
+              Top 1000 trong 3 bảng xếp hạng gần nhất: QS, ARWU và THE hoặc
+              các trường đạt chứng nhận QS Star 5 sao về chất lượng đào tạo</td>
+            <td>PTK</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Ghi chú:</p>
+      <p>(*) Thế hệ 1: thí sinh là người đầu tiên trong gia đình (gồm phụ huynh hoặc người bảo trợ và tất cả anh chị em
+        ruột) học đại học. Khi đăng ký xét tuyển, thí sinh là Thế hệ 1 cần nộp Đơn đăng ký ưu tiên xét tuyển có xác
+        nhận của nơi làm việc của bố mẹ hoặc địa phương theo mẫu của Trường Đại học TEG.</p>
+      <p><strong>3. Tổ hợp môn tương ứng ngành và phương thức tuyển sinh</strong></p>
+      <table class="mini" cellspacing="0">
+        <tr>
+          <td>STT</td>
+          <td>Mã ngành</td>
+          <td>Tên ngành</td>
+          <td>Mã PT</td>
+          <td>Phương thức xét tuyển</td>
+          <td>Tổ hợp môn tuyển sinh</td>
+        </tr>
+        <tr>
+          <td rowspan="9">1</td>
+          <td rowspan="9">7220201</td>
+          <td rowspan="9">Ngôn ngữ Anh</td>
+          <td>200</td>
+          <td>Xét kết quả học tập cấp THPT (học bạ)</td>
+          <td>F03 (Toán, Văn, Anh, Khoa học tự nhiên, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>301</td>
+          <td>Xét tuyển thẳng theo quy định của Quy chế tuyển sinh (Điều 8)</td>
+          <td>TT (Tuyển thẳng trong Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT năm 2022)
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">402</td>
+          <td rowspan="2">Sử dụng kết quả thi đánh giá năng lực, đánh giá tư duy do đơn vị khác tổ chức để xét tuyển
+          </td>
+          <td>NL1 (Bài thi đánh giá năng lực của Đại học Quốc gia TP. Hồ Chí Minh)</td>
+        </tr>
+        <tr>
+          <td>Q00 (Bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội)</td>
+        </tr>
+        <tr>
+          <td>408</td>
+          <td>Chỉ sử dụng chứng chỉ quốc tế để xét tuyển</td>
+          <td>CCQT (Chỉ sử dụng chứng chỉ quốc tế để xét tuyển)</td>
+        </tr>
+        <tr>
+          <td>411</td>
+          <td>Xét tuyển thí sinh tốt nghiệp THPT nước ngoài</td>
+          <td>TNNN (Tốt nghiệp THPT nước ngoài)</td>
+        </tr>
+        <tr>
+          <td rowspan="3">500</td>
+          <td rowspan="3">Sử dụng phương thức khác</td>
+          <td>F01 (Toán, Văn, Anh, Khoa học tự nhiên)</td>
+        </tr>
+        <tr>
+          <td>F02 (Toán, Văn, Anh, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>PTK (Sử dụng phương thức khác)</td>
+        </tr>
+        <tr>
+          <td rowspan="8">2</td>
+          <td rowspan="8">7220209</td>
+          <td rowspan="8">Ngôn ngữ Nhật</td>
+          <td>200</td>
+          <td>Xét kết quả học tập cấp THPT (học bạ)</td>
+          <td>F03 (Toán, Văn, Anh, Khoa học tự nhiên, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>301</td>
+          <td>Xét tuyển thẳng theo quy định của Quy chế tuyển sinh (Điều 8)</td>
+          <td>TT (Tuyển thẳng trong Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT năm 2022)
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">402</td>
+          <td rowspan="2">Sử dụng kết quả thi đánh giá năng lực, đánh giá tư duy do đơn vị khác tổ chức để xét tuyển
+          </td>
+          <td>NL1 (Bài thi đánh giá năng lực của Đại học Quốc gia TP. Hồ Chí Minh)</td>
+        </tr>
+        <tr>
+          <td>Q00 (Bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội)</td>
+        </tr>
+        <tr>
+          <td>408</td>
+          <td>Chỉ sử dụng chứng chỉ quốc tế để xét tuyển></td>
+          <td>CCQT (Chỉ sử dụng chứng chỉ quốc tế để xét tuyển)</td>
+        </tr>
+        <tr>
+          <td rowspan="3">500</td>
+          <td rowspan="3">Sử dụng phương thức khác</td>
+          <td>F01 (Toán, Văn, Anh, Khoa học tự nhiên)</td>
+        </tr>
+        <tr>
+          <td>F02 (Toán, Văn, Anh, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>PTK (Sử dụng phương thức khác)</td>
+        </tr>
+        <td rowspan="8">3</td>
+        <td rowspan="8">7220210</td>
+        <td rowspan="8">Ngôn ngữ Hàn Quốc</td>
+        <td>200</td>
+        <td>Xét kết quả học tập cấp THPT (học bạ)</td>
+        <td>F03 (Toán, Văn, Anh, Khoa học tự nhiên, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>301</td>
+          <td>Xét tuyển thẳng theo quy định của Quy chế tuyển sinh (Điều 8)</td>
+          <td>TT (Tuyển thẳng trong Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT năm 2022)
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">402</td>
+          <td rowspan="2">Sử dụng kết quả thi đánh giá năng lực, đánh giá tư duy do đơn vị khác tổ chức để xét tuyển
+          </td>
+          <td>NL1 (Bài thi đánh giá năng lực của Đại học Quốc gia TP. Hồ Chí Minh)</td>
+        </tr>
+        <tr>
+          <td>Q00 (Bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội)</td>
+        </tr>
+        <tr>
+          <td>408</td>
+          <td>Chỉ sử dụng chứng chỉ quốc tế để xét tuyển></td>
+          <td>CCQT (Chỉ sử dụng chứng chỉ quốc tế để xét tuyển)</td>
+        </tr>
+        <tr>
+          <td rowspan="3">500</td>
+          <td rowspan="3">Sử dụng phương thức khác</td>
+          <td>F01 (Toán, Văn, Anh, Khoa học tự nhiên)</td>
+        </tr>
+        <tr>
+          <td>F02 (Toán, Văn, Anh, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>PTK (Sử dụng phương thức khác)</td>
+        </tr>
+        <td rowspan="8">4</td>
+        <td rowspan="8">7340101</td>
+        <td rowspan="8">Quản trị kinh doanh</td>
+        <td>200</td>
+        <td>Xét kết quả học tập cấp THPT (học bạ)</td>
+        <td>F03 (Toán, Văn, Anh, Khoa học tự nhiên, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>301</td>
+          <td>Xét tuyển thẳng theo quy định của Quy chế tuyển sinh (Điều 8)</td>
+          <td>TT (Tuyển thẳng trong Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT năm 2022)
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">402</td>
+          <td rowspan="2">Sử dụng kết quả thi đánh giá năng lực, đánh giá tư duy do đơn vị khác tổ chức để xét tuyển
+          </td>
+          <td>NL1 (Bài thi đánh giá năng lực của Đại học Quốc gia TP. Hồ Chí Minh)</td>
+        </tr>
+        <tr>
+          <td>Q00 (Bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội)</td>
+        </tr>
+        <tr>
+          <td>408</td>
+          <td>Chỉ sử dụng chứng chỉ quốc tế để xét tuyển></td>
+          <td>CCQT (Chỉ sử dụng chứng chỉ quốc tế để xét tuyển)</td>
+        </tr>
+        <tr>
+          <td rowspan="3">500</td>
+          <td rowspan="3">Sử dụng phương thức khác</td>
+          <td>F01 (Toán, Văn, Anh, Khoa học tự nhiên)</td>
+        </tr>
+        <tr>
+          <td>F02 (Toán, Văn, Anh, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>PTK (Sử dụng phương thức khác)</td>
+        </tr>
+        <td rowspan="8">5</td>
+        <td rowspan="8">7480201</td>
+        <td rowspan="8">Công nghệ thông tin</td>
+        <td>200</td>
+        <td>Xét kết quả học tập cấp THPT (học bạ)</td>
+        <td>F03 (Toán, Văn, Anh, Khoa học tự nhiên, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>301</td>
+          <td>Xét tuyển thẳng theo quy định của Quy chế tuyển sinh (Điều 8)</td>
+          <td>TT (Tuyển thẳng trong Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT năm 2022)
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">402</td>
+          <td rowspan="2">Sử dụng kết quả thi đánh giá năng lực, đánh giá tư duy do đơn vị khác tổ chức để xét tuyển
+          </td>
+          <td>NL1 (Bài thi đánh giá năng lực của Đại học Quốc gia TP. Hồ Chí Minh)</td>
+        </tr>
+        <tr>
+          <td>Q00 (Bài thi đánh giá năng lực của Đại học Quốc gia Hà Nội)</td>
+        </tr>
+        <tr>
+          <td>408</td>
+          <td>Chỉ sử dụng chứng chỉ quốc tế để xét tuyển></td>
+          <td>CCQT (Chỉ sử dụng chứng chỉ quốc tế để xét tuyển)</td>
+        </tr>
+        <tr>
+          <td rowspan="3">500</td>
+          <td rowspan="3">Sử dụng phương thức khác</td>
+          <td>F01 (Toán, Văn, Anh, Khoa học tự nhiên)</td>
+        </tr>
+        <tr>
+          <td>F02 (Toán, Văn, Anh, Khoa học xã hội)</td>
+        </tr>
+        <tr>
+          <td>PTK (Sử dụng phương thức khác)</td>
+        </tr>
+      </table>
+      <p><strong>4. Trình độ tiếng Anh theo yêu cầu</strong></p>
+      <p>Thí sinh cần đạt một trong các chứng chỉ tiếng Anh ở các mức điểm chi tiết như sau:</p>
+      <table class="minimarg" cellspacing="0">
+        <tbody>
+          <tr>
+            <td colspan="8"><strong>Điểm chứng chỉ</strong></td>
+          </tr>
+          <tr>
+            <td>VSTEP</td>
+            <td>TOEFL PBT</td>
+            <td>TOEFL ITP</td>
+            <td>TOEFL ITP</td>
+            <td>TOEFL iBT</td>
+            <td>TOEIC </td>
+            <td>PTE Academic</td>
+            <td>Cambridge English exam
+              (KET, PET, FCE, CAE, CPE)</td>
+          </tr>
+          <tr>
+            <td>Từ Bậc 4/6 </td>
+            <td>575+</td>
+            <td>B2+ ~ 542+</td>
+            <td>60+</td>
+            <td>6.0+</td>
+            <td>800+</td>
+            <td>46+</td>
+            <td>B2 ~ FCE, C1 ~ CAE, C2 ~ CPE</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Lưu ý:</strong></p>
+      <ul>
+        <li>Thí sinh chưa đạt trình độ tiếng Anh theo yêu cầu được đăng ký học chương trình tiếng Anh dự bị của trường
+          cho tới khi đủ điều kiện vào học chương trình đào tạo hệ đại học chính quy;</li>
+        <li>Chứng chỉ để tính quy đổi phải hợp lệ và còn thời hạn sử dụng.</li>
+      </ul>
+      <p><strong>III. Thủ tục đăng ký</strong></p>
+      <p>1.<strong>Hồ sơ đăng ký</strong></p>
+      <ul>
+        <li>Phiếu đăng ký ĐH TEG;</li>
+        <li>Bản photo/scan CMND/CCCD/hộ chiếu;</li>
+        <li>Bản photo/scan Học bạ THPT (đối với hồ sơ đăng ký theo kết quả Học bạ THPT) hoặc Giấy chứng nhận kết quả thi
+          THPT năm 2022 (đối với hồ sơ đăng ký theo kết quả thi THPT năm 2022);</li>
+        <li>Giấy chứng nhận xếp hạng học sinh THPT năm 2022 theo kết quả học bạ THPT/kết quả thi THPT trên trang
+          <a href="#">http://SchoolRank.teg.edu.vn</a>
+        </li>
+        <li>Bản photo/scan các giấy tờ chứng nhận điều kiện đăng ký khác (nếu có).</li>
+        <li>Lệ phí tuyển sinh: 200.000 đồng;</li>
+      </ul>
+      <p>Đăng ký chỉ hợp lệ khi Trường ĐH TEG nhận được đầy đủ hồ sơ và lệ phí tuyển sinh theo quy định.</p>
+      <p>2.<strong>Lịch trình nhập học</strong></p>
+      <p>Theo các thông báo tuyển sinh của Trường ĐH TEG.</p>
+      <p><strong>V. Thủ tục đăng ký và nộp phí</strong></p>
+      <p>1.<strong>Địa điểm văn phòng tư vấn tuyển sinh và thông tin liên hệ hướng dẫn cách thức đăng ký và nộp
+          phí</strong></p>
+      <table class="mini" cellspacing="0" width="100%">
+        <tr>
+          <td>Văn phòng tuyển sinh </td>
+          <td>Địa chỉ</td>
+          <td>Điện thoại</td>
+        </tr>
+        <tr>
+          <td>Hà Nội</td>
+          <td>Khu Giáo dục và Đào tạo – Khu Công nghệ cao Hòa Lạc, Km29 Đại lộ Thăng Long, huyện Thạch Thất, Tp. Hà Nội
+          </td>
+          <td width="113">(024)73001899 (024)73005577</td>
+        </tr>
+        <tr>
+          <td>TP. Hồ Chí Minh</td>
+          <td>Lô E2a-7, Đường D1 Khu Công nghệ cao, P. Long Thạnh Mỹ, Q.9, Tp.HCM</td>
+          <td width="113">(028)73001899 (028)73005577</td>
+        </tr>
+        <tr>
+          <td>TP. Đà Nẵng</td>
+          <td>Khu Đô thị Công nghệ TEG, P. Hòa Hải, Q. Ngũ Hành Sơn, Tp. Đà Nẵng</td>
+          <td width="113">(0236)7301899 (0236)7300888</td>
+        </tr>
+        <tr>
+          <td>TP. Cần Thơ</td>
+          <td>Số 600 đường Nguyễn Văn Cừ nối dài, Khu vực 6, phường An Bình, quận Ninh Kiều, TP. Cần Thơ</td>
+          <td width="113">(0292)7301899 (0292)7302323</td>
+        </tr>
+        <tr>
+          <td>TP. Quy Nhơn</td>
+          <td>Khu đô thị mới An Phú Thịnh, Phường Nhơn Bình & Phường Đống Đa, TP. Quy Nhơn, Tỉnh Bình
+            Định</td>
+          <td width="113">(0256)7300888 (0256)7301855</td>
+        </tr>
+      </table>
+      <p>2.<strong>Nộp phí</strong></p>
+      <p>Tài khoản ngân hàng của Trường Đại học TEG</p>
+      <table class="minimarg" cellspacing="0">
+        <tr>
+          <td><strong>Tài khoản</strong></td>
+          <td><strong>Hà Nội</strong></td>
+          <td><strong>TP.HCM</strong></td>
+          <td><strong>Đà Nẵng</strong></td>
+          <td><strong>Cần Thơ</strong></td>
+          <td><strong>Quy Nhơn</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Chủ tài khoản</strong></td>
+          <td>Trường Đại học TEG</td>
+          <td>Phân hiệu Trường Đại học TEG tại thành phố Hồ Chí Minh</td>
+          <td>Phân hiệu Trường Đại học TEG tại thành phố Đà Nẵng</td>
+          <td>Phân hiệu trường Đại học TEG tại thành phố Cần Thơ</td>
+          <td>Phân hiệu trường Đại học TEG tại tỉnh Bình Định</td>
+        </tr>
+        <tr>
+          <td><strong>Số tài khoản</strong></td>
+          <td>00006565009</td>
+          <td>10109090909</td>
+          <td>03887714901</td>
+          <td>09098788115</td>
+          <td>12111113804</td>
+        </tr>
+        <tr>
+          <td><strong>Ngân hàng</strong></td>
+          <td>Ngân hàng Thương mại Cổ phần Tiên Phong – Chi nhánh Hoàn Kiếm</td>
+          <td>Ngân Hàng Thương mại Cổ phần Tiên Phong – Chi Nhánh Tp. Hồ Chí Minh</td>
+          <td>Ngân hàng Thương mại Cổ phần Tiên Phong – Chi nhánh Đà Nẵng</td>
+          <td>Ngân hàng Thương mại Cổ phần Tiên Phong – Chi nhánh Cần Thơ</td>
+          <td>Ngân hàng Thương mại Cổ phần Tiên Phong – Chi nhánh Bình Định</td>
+        </tr>
+        <tr>
+          <td>
+            <p><strong>Nội dung nộp tiền</strong></p>
+          </td>
+          <td colspan="5" class="1">
+            <p>* Đối với thí sinh đăng ký tham gia chương trình học bổng:</p>
+            <p>Họ và tên thí sinh – Số CMND của thí sinh – Lệ phí ĐKNH 2022</H>
+            </p>
+            <p>* Đối với thí sinh đăng ký nhập học:</p>
+            <p>Họ và tên thí sinh – Số CMND của thí sinh – Lệ phí ĐKNH 2022</H>
+            </p>
+          </td>
+        </tr>
+      </table>
+      <p>Các khoản phí áp dụng theo Quy định tài chính hiện hành của Trường Đại học TEG.</p>
+      <div>
+        <div>
+          <p><strong>Đăng Ký Tư Vấn</strong></p>
+          <ul class="subcribe">
+            <li>
+              <p><strong>Họ và tên</strong></p>
+              <input type="text" placeholder="Họ và tên" required>
+            </li>
+            <li>
+              <p><strong>Điện thoại</strong></p>
+              <input type="number" placeholder="Điện thoại" required>
+            </li>
+            <li>
+              <p><strong>Ngày sinh</strong></p>
+              <input type="date" placeholder="Ngày sinh">
+            </li>
+            <li>
+              <p><strong>Email</strong></p>
+              <input type="email" placeholder="Email" required>
+            </li>
+            <li>
+              <p><strong>Trường THPT / Đại học</strong></p>
+              <input type="text" placeholder="Trường THPT / Đại học">
+            </li>
+            <li>
+              <p><strong>Tỉnh / thành phố</strong></p>
+              <select>
+                <option value selected="selected">Tỉnh / thành phố</option>
+                <option value="HANOI">Thành phố Hồ Chí Minh</option>
+                <option value="HCM">Hà Nội</option>
+                <option value="DANANG">Đà Nẵng</option>
+                <option value="HAIPHONG">Hải Phòng</option>
+                <option value="CANTHO">Cần Thơ</option>
+                <option value="BARIA">Bà Rịa</option>
+                <option value="THUDUC">Tp. Thủ Đức</option>
+                <option value="BACLIEU">Bạc Liêu</option>
+                <option value="BAOLOC">Bảo Lộc</option>
+                <option value="BACGIANG">Bắc Giang</option>
+                <option value="BACKAN">Bắc Kạn</option>
+                <option value="BACNINH">Bắc Ninh</option>
+                <option value="BENTRE">Bến Tre</option>
+                <option value="BIENHOA">Biên Hòa</option>
+                <option value="BUONMATHUOT">Buôn Ma Thuột</option>
+                <option value="CAMAU">Cà Mau</option>
+                <option value="CAMRANH">Cam Ranh</option>
+                <option value="CAOBANG">Cao Bằng</option>
+                <option value="CAOLANH">Cao Lãnh</option>
+                <option value="CAMPHA">Cẩm Phả</option>
+                <option value="CHAUDOC">Châu Đốc</option>
+                <option value="DALAT">Đà Lạt</option>
+                <option value="DIENBIENPHU">Điện Biên Phủ</option>
+                <option value="DONGHA">Đông Hà</option>
+                <option value="DONGHOI">Đồng Hới</option>
+                <option value="DONGXOAI">Đồng Xoài</option>
+                <option value="HAGIANG">Hà Giang</option>
+                <option value="HALONG">Hạ Long</option>
+                <option value="HATIEN">Hà Tiên</option>
+                <option value="HATINH">Hà Tĩnh</option>
+                <option value="HAIDUONG">Hải Dương</option>
+                <option value="HOABINH">Hòa Bình</option>
+                <option value="HOIAN">Hội An</option>
+                <option value="HUE">Huế</option>
+                <option value="HUNGYEN">Hưng Yên</option>
+                <option value="KONTUM">Kon Tum</option>
+                <option value="LAICHAU">Lai Châu</option>
+                <option value="LANGSON">Lạng Sơn</option>
+                <option value="LAOCAI">Lào Cai></option>
+                <option value="LONGXUYEN">Long Xuyên</option>
+                <option value="MONGCAI">Móng Cái</option>
+                <option value="MYTHO">Mỹ Tho</option>
+                <option value="NAMDINH">Nam Định</option>
+                <option value="NHATRANG">Nha Trang</option>
+                <option value="NINHBINH">Ninh Bình</option>
+                <option value="PHANRANG">Phan Rang – Tháp Chàm</option>
+                <option value="PHANTHIET">Phan Thiết</option>
+                <option value="PHULY">Phủ Lý</option>
+                <option value="PHUCYEN">Phúc Yên</option>
+                <option value="PLEIKU">Pleiku</option>
+                <option value="QUANGNGAI">Quảng Ngãi</option>
+                <option value="QUYNHON">Quy Nhơn</option>
+                <option value="RACHGIA">Rạch Giá</option>
+                <option value="PHUQUOC">Phú Quốc</option>
+                <option value="SADEC">Sa Đéc</option>
+                <option value="SAMSON">Sầm Sơn</option>
+                <option value="SOCTRANG">Sóc Trăng</option>
+                <option value="SONLA">Sơn La</option>
+                <option value="SONGCONG">Sông Công</option>
+                <option value="TAMDIEP">Tam Điệp</option>
+                <option value="TAMKY">Tam Kỳ</option>
+                <option value="TANAN">Tân An</option>
+                <option value="TAYNINH">Tây Ninh</option>
+                <option value="THAIBINH">Thái Bình</option>
+                <option value="THAINGUYEN">Thái Nguyên</option>
+                <option value="THANHHOA">Thanh Hóa</option>
+                <option value="THUDAUMOT">Thủ Dầu Một</option>
+                <option value="TRAVINH">Trà Vinh</option>
+                <option value="TUYHOA">Tuy Hòa</option>
+                <option value="TUYENQUANG">Tuyên Quang</option>
+                <option value="UONGBI">Uông Bí</option>
+                <option value="VITHANH">Vị Thanh</option>
+                <option value="VIETTRI">Việt Trì</option>
+                <option value="VINH">Vinh</option>
+                <option value="VINHLONG">Vĩnh Long</option>
+                <option value="VINHYEN">Vĩnh Yên</option>
+                <option value="VUNGTAU">Vũng Tàu</option>
+                <option value="YENBAI">Yên Bái</option>
+              </select>
+            </li>
+            <li>
+              <p><strong>Link Facebook của bạn</strong></p>
+              <input type="url" placeholder="Link Facebook của bạn">
+            </li>
+        </div>
+        <div>
+          <p class="gui"><strong>Đăng ký</strong></p>
+          <div>
+            <ul class="choose">
+              <li>
+                <input type="radio" name="request">
+                <p><strong>Tư vấn</strong></p>
+              </li>
+              <li>
+                <input type="radio" name="request">
+                <p><strong>Tuyển sinh</strong></p>
+              </li>
+              <li>
+                <input type="radio" name="request">
+                <p><strong>Xét học bổng</strong></p>
+              </li>
+              <li>
+                <input type="radio" name="request">
+                <p><strong>Thi học bổng</strong></p>
+              </li>
+            </ul>
+            <div>
+              <p class="gui"><strong>Nơi đăng ký học</strong></p>
+              <ul class="choose">
+                <li>
+                  <input type="radio" name="city">
+                  <p><strong>Tp.HCM</strong></p>
+                </li>
+                <li>
+                  <input type="radio" name="city">
+                  <p><strong>Hà Nội</strong></p>
+                </li>
+                <li>
+                  <input type="radio" name="city">
+                  <p><strong>Đà Nẵng</strong></p>
+                </li>
+                <li>
+                  <input type="radio" name="city">
+                  <p><strong>Hải Phòng</strong></p>
+                </li>
+              </ul>
+            </div>
+            <a><input class="send" id="btn" type="submit" value="Đăng kí"></a>
+            <script language="javascript">
+              var button = document.getElementById("btn");
+              button.onclick = function () {
+                alert("Cảm ơn bạn đã đăng kí. Chúng tôi sẽ thông báo cho bạn thông tin sớm nhất.");
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="space"></div>
+  <div class="btn" onclick="toTop()"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+  <footer>
+    <div class="footer-main">
+      <div class="conclusion">
+        <h1>TEG University</h1>
+        <h2>Môi trường cho sinh viên năng động, sáng tạo </h2>
+      </div>
+      <div class="infor">
+        <h2>Vị trí: 173 Nguyễn Kiệm, Phường 33, Quận Gò Má, TP-HCM</h2>
+      </div>
+      <hr />
+      <div class="last flex">
+        <div class="address">
+          <div>
+            <h3>Email: teguni@teg.com</h3>
+          </div>
+          <div>
+            <h3>Phone: (0701) 203 6983</h3>
+          </div>
+          <div>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="lastimg">
+          <img src="img/TEGlogofffcut.png" alt="">
+        </div>
+        <div class="license">
+          <h3>&copy; TEG University.<br /> Bản quyền đã được bảo hộ</h3>
+        </div>
+      </div>
+      <div class="ls flex">
+        <div class="login">
+          <a href="login.html">Đăng nhập</a>
+        </div>
+        <div class="tutol">
+          <h3>Đăng nhập/Đăng ký</h3>
+        </div>
+        <div class="sign">
+          <a href="sign.html">Đăng ký</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>

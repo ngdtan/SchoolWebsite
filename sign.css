@@ -1,0 +1,213 @@
+:root {
+    --co1: #06283D;
+    --co2: #1363DF;
+    --co3: #47B5FF;
+    --co4: #DFF6FF;
+    --co5: #dff6ff7e;
+
+    --night1: #06113C;
+    --night2: #FF8C32;
+    --night3: #DDDDDD;
+    --night4: #EEEEEE;
+
+    --earth1: #1C0A00;
+    --earth2: #361500;
+    --earth3: #603601;
+    --earth4: #CC9544;
+
+    --space1: #022C43;
+    --space2: #053F5E;
+    --space3: #115173;
+    --space4: #FFD700;
+
+    --main1: rgb(13, 6, 28);
+    --main2: rgb(232, 228, 228);
+    --main3: rgb(212, 212, 46);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+/* background - vid */
+.vid {
+    position: relative;
+    height: 100vh;
+}
+
+.vid video {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Cố định  */
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Phần nội dung */
+div.part_content {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--co5);
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.content {
+    width: 50%;
+}
+
+/* Tiêu đề */
+.title h1 {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid var(--night2);
+    letter-spacing: 1px;
+    color: var(--night2);
+}
+
+
+/* Chữ tài khoản, mật khẩu */
+.input h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: var(--space1);
+    letter-spacing: 1px;
+}
+
+/* Ô nhập */
+.input>input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid var(--space1);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--space1);
+    border-radius: 30px;
+}
+
+.button input {
+    margin-top: 30px;
+    background: var(--co3);
+    color: var(--co4);
+    font-weight: 500;
+    width: 100%;
+}
+
+.button input:hover {
+    background-color: var(--co2);
+}
+
+/* Hỏi */
+.quiz>h3 {
+    color: var(--space1);
+}
+
+.quiz h3>a {
+    text-decoration: none;
+    color: var(--space2);
+}
+
+/* Icon face,... */
+.social h3 {
+    color: var(--space1);
+    text-align: center;
+    margin: 50px 0 10px;
+    font-weight: 500;
+}
+
+.social-icon {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.social-icon li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon li:first-child a {
+    color: #3b5999;
+}
+
+.social-icon li:nth-child(2) a {
+    color: #dd4b39;
+}
+
+.social-icon li:last-child a {
+    color: #55acee;
+}
+
+.social-icon li a {
+    font-size: 24px;
+}
+
+.backhome {
+
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+.backhome a {
+    color: var(--co3);
+    font-size: 30px;
+}
+
+@media screen and (max-width:400px) {
+    video {
+        display: none;
+    }
+
+    div.part_content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content {
+        width: 100%;
+        padding-bottom: 10rem;
+
+    }
+
+    .input>input {
+        margin-bottom: 5px;
+    }
+
+    .quiz h3 {
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .input h2 {
+        font-size: 14px;
+    }
+
+    .backhome a {
+        z-index: 10;
+    }
+}
